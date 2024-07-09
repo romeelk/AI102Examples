@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "translatespeech", "translatespeech\translatespeech.csproj", "{4D7A5BAF-0F20-4DFC-8DB6-64913496D8AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cognitivespeech", "cognitivespeech\cognitivespeech.csproj", "{23F0EB86-004A-41E6-87FF-3EC2F9ED3E25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aivision", "aivision\aivision.csproj", "{594B53EB-B96E-4CD0-9F3F-88A6706C9C8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "languageunderstand", "languageunderstand\languageunderstand.csproj", "{D943B948-2CE1-4DA8-9550-B3AE436CF940}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D7A5BAF-0F20-4DFC-8DB6-64913496D8AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D7A5BAF-0F20-4DFC-8DB6-64913496D8AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D7A5BAF-0F20-4DFC-8DB6-64913496D8AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D7A5BAF-0F20-4DFC-8DB6-64913496D8AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23F0EB86-004A-41E6-87FF-3EC2F9ED3E25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23F0EB86-004A-41E6-87FF-3EC2F9ED3E25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23F0EB86-004A-41E6-87FF-3EC2F9ED3E25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23F0EB86-004A-41E6-87FF-3EC2F9ED3E25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{594B53EB-B96E-4CD0-9F3F-88A6706C9C8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{594B53EB-B96E-4CD0-9F3F-88A6706C9C8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{594B53EB-B96E-4CD0-9F3F-88A6706C9C8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{594B53EB-B96E-4CD0-9F3F-88A6706C9C8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D943B948-2CE1-4DA8-9550-B3AE436CF940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D943B948-2CE1-4DA8-9550-B3AE436CF940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D943B948-2CE1-4DA8-9550-B3AE436CF940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D943B948-2CE1-4DA8-9550-B3AE436CF940}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
