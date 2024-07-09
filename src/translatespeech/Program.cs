@@ -8,7 +8,6 @@ IConfigurationRoot configuration = builder.Build();
 string aiSvcKey = configuration["SpeechKey"];
 string aiSvcRegion = configuration["SpeechRegion"];
 
-
 try
 {
     // congiure Azure AI speech
@@ -40,14 +39,13 @@ async Task SynthesizeTranslation(SpeechConfig speechConfig, string ? translation
     using SpeechSynthesizer speechSynthesizer = new SpeechSynthesizer(speechConfig);
 
     var speak = await speechSynthesizer.SpeakTextAsync(translation);
-
 }
 
 async Task TranslateFromFile(SpeechTranslationConfig?  speechTranslationConfig)
 {
-     var audioConfig = AudioConfig.FromWavFileInput("station.wav");
+    var audioConfig = AudioConfig.FromWavFileInput("station.wav");
 
-     var speechRecognizer = new TranslationRecognizer(speechTranslationConfig, audioConfig);
+    var speechRecognizer = new TranslationRecognizer(speechTranslationConfig, audioConfig);
 
     var result = await speechRecognizer.RecognizeOnceAsync();
 
@@ -72,6 +70,4 @@ static async Task<string> TranslateFromSpeechFromMicrophone(SpeechTranslationCon
     Console.WriteLine($"French translation:{translation}");
 
     return translation;
-
-
 }
